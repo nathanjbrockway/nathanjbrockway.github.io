@@ -8,6 +8,16 @@ hr {
     border-width: 1px;
 }
 
+div {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 img {
     image-orientation: from-image;
+}
+
+footer {
+    text-align: center;
 }
