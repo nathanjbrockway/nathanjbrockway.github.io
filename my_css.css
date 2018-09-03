@@ -1,23 +1,40 @@
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-div {
+body{
+    background-image: url(img/bg3.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button{
+    background: gray;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px 5px;
+}
+
+div.container {
     text-align: center;
     align-items: center;
     align-content: center;
-}
-
-img {
-    image-orientation: from-image;
+    background: none;
 }
 
 footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: gray;
     text-align: center;
+  }
+
+img {
+    image-orientation: from-image;
 }
